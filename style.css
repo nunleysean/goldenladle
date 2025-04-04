@@ -65,6 +65,16 @@ i {
     color: #c19a6b;
 }
 
+.certificate-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 20px;
