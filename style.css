@@ -64,3 +64,44 @@ i {
     font-family: 'Great Vibes', cursive;
     color: #c19a6b;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+        max-width: 95%;
+        margin: 20px auto;
+        border-width: 8px; /* Reduce border size */
+    }
+
+    h1 {
+        font-size: 4em; /* Adjust font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        font-size: 1.2em; /* Adjust font size for readability */
+        line-height: 1.6; /* Adjust line spacing */
+    }
+
+    .highlight {
+        font-size: 1.6em; /* Adjust highlight size */
+    }
+
+    .certificate-seal {
+        font-size: 3em; /* Reduce seal size */
+        bottom: 20px; /* Adjust position */
+        left: 20px;
+    }
+
+    .signature {
+        font-size: 1em; /* Adjust signature text size */
+        margin-top: 40px;
+    }
+
+    .signature .signer {
+        font-size: 1.8em; /* Adjust signer name size */
+    }
+}
