@@ -1,0 +1,49 @@
+body {
+    font-family: "Georgia", serif;
+    background-color: #fffbea;
+    color: #4a3b2f;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    border: 10px solid #d4af37;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 4.5em; /* Increased from 4em to 4.5em */
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 3em; /* Increased from 2.5em to 3em */
+    color: #4a3b2f;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #d4af37;
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.8em; /* Added font size for prominence */
+}
+
+i {
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.8em; /* Increased from 1.5em to 1.8em */
+    color: #4a3b2f;
+}
+
+br {
+    margin-bottom: 20px;
+}
